@@ -1,0 +1,10 @@
+include LICENSE
+include README.md
+recursive-include fiduswriter/rust/static *
+recursive-include fiduswriter/rust/fixtures *
+recursive-include fiduswriter/rust/templates *
+recursive-include fiduswriter/rust/locale *
+prune travis
+prune fiduswriter/venv
+prune venv
+prune fiduswriter/configuration.py

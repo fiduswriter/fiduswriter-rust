@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=75.8.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fiduswriter-rust"
+description = "A Fidus Writer plugin providing an alternative partial backend in Rust"
+version = "0.1.0"
+readme = "README.md"
+license = {text = "AGPL-3.0-or-later"}
+authors = [
+ {email = "johannes@fiduswriter.org", name = "Johannes Wilm"},
+]
+classifiers=[
+ "Environment :: Web Environment",
+ "Framework :: Django",
+ "Framework :: Django :: 6.0",
+ "Intended Audience :: Developers",
+ "License :: OSI Approved :: GNU Affero General Public License v3",
+ "Operating System :: OS Independent",
+ "Programming Language :: Python",
+ "Programming Language :: Python :: 3",
+ "Topic :: Internet :: WWW/HTTP",
+ "Topic :: Internet :: WWW/HTTP :: Dynamic Content",
+]
+
+[project.urls]
+repository = "https://www.github.com/fiduswriter/fiduswriter-rust"
