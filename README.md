@@ -1,3 +1,5 @@
+**This project is not currently under development. Instead, rust has been incorporated into the main Fidus Writer backend (most notably with prosemirror-rs).**
+
 # Fidus Writer Rust Server Connector
 
 This Django app provides REST API endpoints for a companion Rust WebSocket server.
